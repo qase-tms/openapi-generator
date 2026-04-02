@@ -1,0 +1,25 @@
+README.md
+  364f15c88529d264 1-24
+pom.xml
+  364f15c88529d264 20,22-24,61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "5b4f1a57304ee829e67f09e76f92c22d8306a106",
+  "prompts": {
+    "364f15c88529d264": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8cefea34-3c99-446b-a038-98ef80c0f1a8",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Ruslan Abelkharisov",
+      "messages": [],
+      "total_additions": 86,
+      "total_deletions": 5,
+      "accepted_lines": 29,
+      "overriden_lines": 0
+    }
+  }
+}
