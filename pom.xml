@@ -15,7 +15,7 @@
     <packaging>pom</packaging>
     <name>openapi-generator-project</name>
     <!-- RELEASE_VERSION -->
-    <version>7.21.0</version>
+    <version>7.21.0-qase.1</version>
     <!-- /RELEASE_VERSION -->
     <url>https://github.com/qase-tms/openapi-generator</url>
     <scm>

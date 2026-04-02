@@ -1,5 +1,8 @@
 FROM maven:3-eclipse-temurin-17
 
+LABEL org.opencontainers.image.source=https://github.com/qase-tms/openapi-generator
+LABEL org.opencontainers.image.description="OpenAPI Generator (Qase fork)"
+
 ENV GEN_DIR /opt/openapi-generator
 WORKDIR ${GEN_DIR}
 

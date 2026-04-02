@@ -12,6 +12,27 @@ Fork of [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) w
 - `master` — tracks upstream
 - `custom` — all Qase changes on top of master
 
+## Docker
+
+### Build
+
+```bash
+docker build -t ghcr.io/qase-tms/openapi-generator:7.21.0-qase.1 .
+```
+
+### Push to GHCR
+
+```bash
+echo $(gh auth token) | docker login ghcr.io -u $(gh api user -q .login) --password-stdin
+docker push ghcr.io/qase-tms/openapi-generator:7.21.0-qase.1
+```
+
+### Versioning
+
+Format: `{upstream_version}-qase.{N}`, e.g. `7.21.0-qase.1`.
+
+When bumping, update the version in all `pom.xml` files (root + modules) and rebuild the image.
+
 ## Syncing with upstream
 
 ```bash
