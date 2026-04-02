@@ -1,0 +1,27 @@
+README.md
+  77e602dd715d875a 15-35
+pom.xml
+  77e602dd715d875a 18
+Dockerfile
+  77e602dd715d875a 3-5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "0ad12ee65cf0ab047d4063c9dbba7752d7110f5a",
+  "prompts": {
+    "77e602dd715d875a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "20e63a9c-d255-4354-b973-081b2f6b0815",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Ruslan Abelkharisov",
+      "messages": [],
+      "total_additions": 32,
+      "total_deletions": 8,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  }
+}
