@@ -1,3 +1,27 @@
+# Qase Fork
+
+Fork of [OpenAPI Generator](https://github.com/OpenAPITools/openapi-generator) with discriminator support for Go and PHP generators.
+
+## Changes
+
+- **Go Server** — properties referencing models with a discriminator are emitted as `interface{}` for correct polymorphic deserialization
+- **PHP Client** — parent/child relationships and discriminator metadata are set on models linked via discriminator for correct serialization/deserialization
+
+## Branch strategy
+
+- `master` — tracks upstream
+- `custom` — all Qase changes on top of master
+
+## Syncing with upstream
+
+```bash
+git remote add upstream https://github.com/OpenAPITools/openapi-generator.git
+git checkout master && git pull upstream master && git push origin master
+git checkout custom && git rebase master && git push origin custom --force-with-lease
+```
+
+---
+
 <h1 align="center">OpenAPI Generator</h1>
 
 
