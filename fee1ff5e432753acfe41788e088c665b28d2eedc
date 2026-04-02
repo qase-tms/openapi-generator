@@ -1,0 +1,23 @@
+modules/openapi-generator/src/main/java/org/openapitools/codegen/languages/GoServerCodegen.java
+  77e602dd715d875a 319
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.3",
+  "base_commit_sha": "fee1ff5e432753acfe41788e088c665b28d2eedc",
+  "prompts": {
+    "77e602dd715d875a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "20e63a9c-d255-4354-b973-081b2f6b0815",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "Ruslan Abelkharisov",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 1,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
