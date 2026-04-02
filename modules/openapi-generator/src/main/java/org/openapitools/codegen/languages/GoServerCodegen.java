@@ -316,7 +316,7 @@ public class GoServerCodegen extends AbstractGoCodegen {
                 for (CodegenProperty prop: cm.vars) {
                     if (null != prop.complexType && !excludeComplexTypes.contains(prop.complexType)) {
                         CodegenModel pm = modelsMap.get(prop.complexType);
-                        if (null != pm.discriminator && !pm.discriminator.getMappedModels().isEmpty()) {
+                        if (null != pm && null != pm.discriminator && !pm.discriminator.getMappedModels().isEmpty()) {
                             prop.setIsAnyType(true);
                         }
                     }
